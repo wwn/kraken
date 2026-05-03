@@ -1,0 +1,21 @@
+{
+  "name": "dca-trading-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch run.ts",
+    "start": "tsx run.ts",
+    "paper": "tsx run.ts",
+    "build": "tsc",
+    "run:built": "node dist/run.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.126",
+    "kraken-api": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "tsx": "latest",
+    "typescript": "latest"
+  }
+}
